@@ -667,7 +667,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   switch( card ) 
     {
     case adventurer:
-      return adventurer(handPos, currentPlayer, state);
+      return adventurer_func(handPos, currentPlayer, state);
 			
     case council_room:
       //+4 Cards
@@ -811,10 +811,10 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case smithy:
-      return smithy(handPos, currentPlayer, state);
+      return smithy_func(handPos, currentPlayer, state);
 		
     case village:
-      return(handPos, currentPlayer, state);
+      return village_func(handPos, currentPlayer, state);
 		
     case baron:
       state->numBuys++;//Increase buys by 1!
@@ -868,7 +868,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case great_hall:
-      return great_hall(handPos, currentPlayer, state);
+      return great_hall_func(handPos, currentPlayer, state);
 		
     case minion:
       //+1 action
@@ -1097,7 +1097,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 
 		
     case embargo: 
-      return embargo(handPos, currentPlayer, choice1, state);
+      return embargo_func(handPos, currentPlayer, choice1, state);
 		
     case outpost:
       //set outpost flag
@@ -1273,7 +1273,7 @@ int updateCoins(int player, struct gameState *state, int bonus)
 }
 
 
-int adventurer(int handPos, int currentPlayer, struct gameState* state)
+int adventurer_func(int handPos, int currentPlayer, struct gameState* state)
 {
   int temphand[MAX_HAND];
   int drawntreasure=0;
@@ -1301,7 +1301,7 @@ int adventurer(int handPos, int currentPlayer, struct gameState* state)
 }
 
 
-int smithy(int handPos, int currentPlayer, struct gameState* state)
+int smithy_func(int handPos, int currentPlayer, struct gameState* state)
 {
     //+3 Cards
   for (i = 0; i <= 3; i++)
@@ -1315,7 +1315,7 @@ int smithy(int handPos, int currentPlayer, struct gameState* state)
 }
 
 
-int embargo(int handPos, int currentPlayer, int choice1, struct gameState* state)
+int embargo_func(int handPos, int currentPlayer, int choice1, struct gameState* state)
 {
     //+2 Coins
   state->coins = state->coins + 2;
@@ -1329,7 +1329,7 @@ int embargo(int handPos, int currentPlayer, int choice1, struct gameState* state
 }
 
 
-int great_hall(int handPos, int currentPlayer, struct gameState* state)
+int great_hall_func(int handPos, int currentPlayer, struct gameState* state)
 {
     //+1 Card
   drawCard(currentPlayer, state);
@@ -1341,7 +1341,7 @@ int great_hall(int handPos, int currentPlayer, struct gameState* state)
 }
 
 
-int village(int handPos, int currentPlayer, struct gameState* state)
+int village_func(int handPos, int currentPlayer, struct gameState* state)
 {
   //+1 Card
   drawCard(currentPlayer, state);
