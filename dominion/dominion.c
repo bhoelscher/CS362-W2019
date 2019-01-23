@@ -1304,6 +1304,7 @@ int adventurer_func(int handPos, int currentPlayer, struct gameState* state)
 int smithy_func(int handPos, int currentPlayer, struct gameState* state)
 {
     //+3 Cards
+  int i;
   for (i = 0; i <= 3; i++)
     {
     drawCard(currentPlayer, state);
