@@ -1,0 +1,4231 @@
+TESTING supplyCount():
+Checking initial standard kingdom card supply count.
+	Test condition passed
+Checking initial Victory kingdom card supply count.
+	Test condition passed
+Checking initial Estate supply count.
+	Test condition passed
+Checking initial Gold supply count.
+	Test condition passed
+Checking card outside of card range.
+	Test condition FAILED. Expected value: -1 Actual value: 0
+Checking card with negative supply count.
+	Test condition passed
+Checking supply count of Baron, which is not in the intialized game.
+	Test condition passed
+Checking the supply of a sold out kingdom card.
+	Test condition passed
+1 out of 8 tests FAILED
+TESTING supplyCount():
+Checking initial standard kingdom card supply count.
+	Test condition passed
+Checking initial Victory kingdom card supply count.
+	Test condition passed
+Checking initial Estate supply count.
+	Test condition passed
+Checking initial Gold supply count.
+	Test condition passed
+Checking card outside of card range.
+	Test condition FAILED. Expected value: -1 Actual value: 0
+Checking card with negative supply count.
+	Test condition passed
+Checking supply count of Baron, which is not in the intialized game.
+	Test condition passed
+Checking the supply of a sold out kingdom card.
+	Test condition passed
+1 out of 8 tests FAILED
+TESTING getCost():
+Checking cost of a curse.
+	Test condition passed
+Checking cost of an estate.
+	Test condition passed
+Checking cost of a duchy.
+	Test condition passed
+Checking cost of a province.
+	Test condition passed
+Checking cost of a copper.
+	Test condition passed
+Checking cost of a silver.
+	Test condition passed
+Checking cost of a gold.
+	Test condition passed
+Checking cost of a adventurer.
+	Test condition passed
+Checking cost of a council room.
+	Test condition passed
+Checking cost of a feast.
+	Test condition passed
+Checking cost of a gardens.
+	Test condition passed
+Checking cost of a mine.
+	Test condition passed
+Checking cost of a remodel.
+	Test condition passed
+Checking cost of a smithy.
+	Test condition passed
+Checking cost of a village.
+	Test condition passed
+Checking cost of a baron.
+	Test condition passed
+Checking cost of a great_hall.
+	Test condition passed
+Checking cost of a minion.
+	Test condition passed
+Checking cost of a steward.
+	Test condition passed
+Checking cost of a tribute.
+	Test condition passed
+Checking cost of an ambassador.
+	Test condition passed
+Checking cost of a cutpurse.
+	Test condition passed
+Checking cost of an embargo.
+	Test condition passed
+Checking cost of a outpost.
+	Test condition passed
+Checking cost of a salvager.
+	Test condition passed
+Checking cost of a sea_hag.
+	Test condition passed
+Checking cost of a treasure_map.
+	Test condition passed
+Checking the cost of a non-existant card.
+	Test condition passed
+All 28 tests PASSED!
+TESTING handCard():
+Checking card in position 0 of Player 1's hand
+	Test condition passed
+Checking card in position 1 of Player 1's hand
+	Test condition passed
+Checking card in position 2 of Player 1's hand
+	Test condition passed
+Checking card in position 3 of Player 1's hand
+	Test condition passed
+Checking card in position 4 of Player 1's hand
+	Test condition passed
+Checking card in position 5 of Player 1's hand
+	Test condition passed
+Checking card in position 6 of Player 1's hand
+	Test condition passed
+Checking card in position 7 of Player 1's hand
+	Test condition passed
+Checking card in position 8 of Player 1's hand
+	Test condition passed
+Checking card in position 9 of Player 1's hand
+	Test condition passed
+Checking card in position 10 of Player 1's hand
+	Test condition passed
+Checking card in position 11 of Player 1's hand
+	Test condition passed
+Checking card in position 12 of Player 1's hand
+	Test condition passed
+Checking card in position 13 of Player 1's hand
+	Test condition passed
+Checking card in position 14 of Player 1's hand
+	Test condition passed
+Checking card in position 15 of Player 1's hand
+	Test condition passed
+Checking card in position 16 of Player 1's hand
+	Test condition passed
+Checking card in position 17 of Player 1's hand
+	Test condition passed
+Checking card in position 18 of Player 1's hand
+	Test condition passed
+Checking card in position 19 of Player 1's hand
+	Test condition passed
+Checking card in position 20 of Player 1's hand
+	Test condition passed
+Checking card in position 21 of Player 1's hand
+	Test condition passed
+Checking card in position 22 of Player 1's hand
+	Test condition passed
+Checking card in position 23 of Player 1's hand
+	Test condition passed
+Checking card in position 24 of Player 1's hand
+	Test condition passed
+Checking card in position 25 of Player 1's hand
+	Test condition passed
+Checking card in position 26 of Player 1's hand
+	Test condition passed
+Checking last card in Player 1's hand.
+	Test condition passed
+Checking first card of Player 2's hand.
+	Test condition passed
+Checking last card of Player 2's hand.
+	Test condition passed
+Checking 376th card of Player 2's hand.
+	Test condition passed
+Checking card position above MAX_HAND.
+	Test condition FAILED. Expected value: -1 Actual value: 0
+1 out of 32 tests FAILED
+TESTING updateCoins():
+Checking Player 1 with 1 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 1 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 1 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 1 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 2 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 2 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 2 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 2 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 3 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 3 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 3 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 3 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 4 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 4 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 4 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 4 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 5 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 5 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 5 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 5 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 6 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 6 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 6 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 6 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 7 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 7 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 7 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 7 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 8 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 8 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 8 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 8 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 9 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 9 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 9 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 9 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 10 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 10 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 10 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 10 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 11 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 11 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 11 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 11 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 12 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 12 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 12 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 12 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 13 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 13 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 13 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 13 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 14 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 14 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 14 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 14 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 15 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 15 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 15 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 15 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 16 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 16 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 16 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 16 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 17 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 17 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 17 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 17 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 18 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 18 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 18 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 18 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 19 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 19 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 19 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 19 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 20 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 20 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 20 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 20 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 21 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 21 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 21 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 21 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 22 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 22 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 22 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 22 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 23 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 23 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 23 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 23 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 24 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 24 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 24 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 24 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 25 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 25 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 25 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 25 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 26 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 26 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 26 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 26 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 27 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 27 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 27 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 27 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 28 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 28 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 28 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 28 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 29 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 29 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 29 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 29 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 30 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 30 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 30 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 30 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 31 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 31 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 31 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 31 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 32 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 32 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 32 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 32 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 33 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 33 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 33 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 33 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 34 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 34 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 34 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 34 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 35 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 35 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 35 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 35 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 36 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 36 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 36 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 36 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 37 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 37 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 37 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 37 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 38 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 38 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 38 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 38 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 39 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 39 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 39 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 39 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 40 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 40 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 40 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 40 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 41 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 41 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 41 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 41 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 42 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 42 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 42 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 42 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 43 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 43 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 43 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 43 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 44 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 44 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 44 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 44 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 45 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 45 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 45 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 45 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 46 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 46 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 46 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 46 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 47 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 47 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 47 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 47 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 48 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 48 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 48 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 48 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 49 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 49 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 49 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 49 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 50 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 50 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 50 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 50 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 51 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 51 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 51 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 51 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 52 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 52 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 52 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 52 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 53 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 53 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 53 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 53 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 54 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 54 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 54 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 54 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 55 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 55 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 55 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 55 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 56 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 56 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 56 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 56 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 57 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 57 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 57 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 57 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 58 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 58 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 58 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 58 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 59 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 59 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 59 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 59 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 60 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 60 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 60 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 60 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 61 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 61 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 61 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 61 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 62 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 62 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 62 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 62 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 63 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 63 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 63 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 63 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 64 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 64 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 64 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 64 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 65 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 65 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 65 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 65 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 66 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 66 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 66 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 66 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 67 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 67 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 67 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 67 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 68 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 68 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 68 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 68 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 69 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 69 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 69 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 69 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 70 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 70 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 70 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 70 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 71 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 71 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 71 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 71 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 72 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 72 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 72 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 72 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 73 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 73 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 73 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 73 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 74 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 74 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 74 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 74 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 75 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 75 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 75 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 75 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 76 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 76 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 76 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 76 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 77 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 77 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 77 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 77 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 78 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 78 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 78 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 78 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 79 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 79 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 79 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 79 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 80 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 80 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 80 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 80 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 81 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 81 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 81 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 81 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 82 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 82 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 82 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 82 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 83 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 83 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 83 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 83 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 84 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 84 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 84 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 84 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 85 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 85 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 85 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 85 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 86 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 86 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 86 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 86 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 87 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 87 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 87 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 87 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 88 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 88 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 88 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 88 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 89 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 89 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 89 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 89 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 90 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 90 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 90 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 90 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 91 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 91 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 91 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 91 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 92 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 92 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 92 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 92 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 93 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 93 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 93 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 93 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 94 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 94 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 94 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 94 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 95 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 95 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 95 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 95 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 96 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 96 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 96 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 96 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 97 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 97 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 97 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 97 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 98 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 98 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 98 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 98 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 99 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 99 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 99 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 99 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 100 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 100 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 100 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 100 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 101 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 101 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 101 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 101 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 102 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 102 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 102 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 102 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 103 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 103 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 103 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 103 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 104 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 104 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 104 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 104 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 105 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 105 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 105 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 105 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 106 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 106 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 106 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 106 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 107 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 107 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 107 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 107 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 108 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 108 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 108 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 108 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 109 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 109 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 109 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 109 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 110 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 110 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 110 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 110 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 111 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 111 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 111 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 111 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 112 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 112 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 112 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 112 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 113 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 113 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 113 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 113 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 114 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 114 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 114 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 114 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 115 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 115 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 115 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 115 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 116 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 116 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 116 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 116 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 117 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 117 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 117 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 117 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 118 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 118 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 118 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 118 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 119 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 119 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 119 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 119 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 120 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 120 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 120 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 120 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 121 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 121 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 121 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 121 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 122 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 122 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 122 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 122 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 123 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 123 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 123 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 123 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 124 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 124 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 124 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 124 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 125 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 125 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 125 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 125 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 126 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 126 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 126 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 126 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 127 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 127 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 127 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 127 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 128 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 128 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 128 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 128 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 129 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 129 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 129 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 129 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 130 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 130 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 130 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 130 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 131 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 131 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 131 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 131 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 132 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 132 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 132 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 132 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 133 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 133 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 133 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 133 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 134 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 134 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 134 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 134 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 135 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 135 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 135 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 135 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 136 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 136 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 136 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 136 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 137 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 137 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 137 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 137 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 138 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 138 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 138 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 138 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 139 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 139 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 139 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 139 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 140 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 140 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 140 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 140 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 141 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 141 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 141 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 141 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 142 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 142 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 142 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 142 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 143 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 143 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 143 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 143 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 144 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 144 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 144 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 144 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 145 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 145 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 145 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 145 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 146 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 146 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 146 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 146 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 147 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 147 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 147 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 147 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 148 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 148 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 148 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 148 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 149 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 149 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 149 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 149 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 150 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 150 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 150 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 150 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 151 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 151 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 151 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 151 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 152 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 152 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 152 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 152 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 153 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 153 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 153 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 153 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 154 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 154 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 154 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 154 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 155 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 155 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 155 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 155 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 156 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 156 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 156 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 156 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 157 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 157 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 157 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 157 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 158 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 158 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 158 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 158 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 159 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 159 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 159 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 159 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 160 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 160 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 160 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 160 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 161 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 161 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 161 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 161 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 162 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 162 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 162 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 162 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 163 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 163 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 163 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 163 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 164 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 164 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 164 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 164 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 165 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 165 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 165 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 165 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 166 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 166 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 166 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 166 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 167 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 167 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 167 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 167 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 168 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 168 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 168 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 168 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 169 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 169 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 169 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 169 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 170 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 170 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 170 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 170 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 171 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 171 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 171 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 171 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 172 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 172 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 172 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 172 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 173 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 173 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 173 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 173 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 174 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 174 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 174 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 174 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 175 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 175 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 175 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 175 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 176 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 176 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 176 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 176 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 177 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 177 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 177 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 177 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 178 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 178 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 178 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 178 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 179 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 179 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 179 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 179 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 180 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 180 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 180 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 180 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 181 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 181 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 181 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 181 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 182 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 182 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 182 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 182 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 183 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 183 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 183 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 183 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 184 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 184 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 184 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 184 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 185 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 185 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 185 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 185 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 186 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 186 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 186 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 186 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 187 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 187 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 187 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 187 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 188 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 188 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 188 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 188 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 189 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 189 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 189 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 189 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 190 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 190 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 190 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 190 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 191 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 191 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 191 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 191 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 192 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 192 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 192 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 192 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 193 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 193 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 193 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 193 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 194 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 194 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 194 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 194 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 195 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 195 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 195 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 195 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 196 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 196 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 196 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 196 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 197 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 197 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 197 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 197 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 198 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 198 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 198 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 198 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 199 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 199 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 199 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 199 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 200 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 200 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 200 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 200 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 201 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 201 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 201 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 201 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 202 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 202 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 202 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 202 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 203 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 203 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 203 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 203 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 204 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 204 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 204 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 204 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 205 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 205 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 205 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 205 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 206 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 206 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 206 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 206 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 207 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 207 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 207 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 207 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 208 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 208 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 208 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 208 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 209 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 209 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 209 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 209 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 210 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 210 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 210 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 210 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 211 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 211 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 211 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 211 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 212 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 212 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 212 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 212 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 213 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 213 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 213 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 213 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 214 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 214 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 214 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 214 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 215 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 215 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 215 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 215 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 216 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 216 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 216 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 216 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 217 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 217 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 217 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 217 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 218 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 218 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 218 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 218 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 219 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 219 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 219 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 219 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 220 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 220 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 220 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 220 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 221 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 221 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 221 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 221 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 222 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 222 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 222 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 222 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 223 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 223 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 223 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 223 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 224 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 224 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 224 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 224 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 225 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 225 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 225 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 225 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 226 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 226 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 226 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 226 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 227 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 227 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 227 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 227 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 228 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 228 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 228 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 228 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 229 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 229 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 229 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 229 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 230 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 230 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 230 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 230 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 231 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 231 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 231 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 231 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 232 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 232 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 232 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 232 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 233 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 233 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 233 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 233 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 234 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 234 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 234 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 234 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 235 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 235 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 235 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 235 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 236 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 236 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 236 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 236 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 237 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 237 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 237 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 237 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 238 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 238 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 238 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 238 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 239 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 239 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 239 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 239 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 240 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 240 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 240 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 240 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 241 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 241 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 241 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 241 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 242 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 242 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 242 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 242 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 243 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 243 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 243 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 243 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 244 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 244 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 244 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 244 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 245 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 245 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 245 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 245 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 246 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 246 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 246 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 246 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 247 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 247 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 247 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 247 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 248 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 248 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 248 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 248 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 249 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 249 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 249 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 249 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 250 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 250 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 250 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 250 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 251 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 251 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 251 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 251 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 252 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 252 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 252 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 252 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 253 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 253 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 253 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 253 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 254 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 254 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 254 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 254 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 255 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 255 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 255 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 255 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 256 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 256 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 256 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 256 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 257 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 257 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 257 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 257 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 258 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 258 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 258 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 258 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 259 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 259 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 259 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 259 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 260 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 260 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 260 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 260 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 261 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 261 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 261 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 261 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 262 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 262 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 262 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 262 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 263 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 263 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 263 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 263 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 264 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 264 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 264 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 264 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 265 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 265 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 265 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 265 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 266 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 266 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 266 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 266 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 267 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 267 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 267 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 267 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 268 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 268 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 268 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 268 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 269 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 269 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 269 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 269 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 270 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 270 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 270 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 270 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 271 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 271 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 271 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 271 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 272 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 272 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 272 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 272 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 273 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 273 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 273 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 273 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 274 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 274 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 274 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 274 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 275 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 275 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 275 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 275 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 276 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 276 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 276 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 276 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 277 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 277 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 277 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 277 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 278 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 278 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 278 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 278 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 279 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 279 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 279 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 279 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 280 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 280 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 280 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 280 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 281 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 281 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 281 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 281 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 282 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 282 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 282 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 282 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 283 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 283 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 283 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 283 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 284 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 284 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 284 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 284 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 285 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 285 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 285 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 285 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 286 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 286 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 286 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 286 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 287 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 287 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 287 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 287 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 288 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 288 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 288 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 288 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 289 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 289 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 289 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 289 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 290 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 290 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 290 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 290 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 291 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 291 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 291 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 291 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 292 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 292 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 292 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 292 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 293 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 293 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 293 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 293 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 294 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 294 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 294 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 294 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 295 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 295 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 295 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 295 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 296 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 296 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 296 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 296 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 297 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 297 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 297 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 297 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 298 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 298 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 298 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 298 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 299 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 299 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 299 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 299 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 300 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 300 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 300 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 300 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 301 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 301 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 301 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 301 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 302 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 302 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 302 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 302 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 303 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 303 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 303 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 303 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 304 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 304 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 304 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 304 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 305 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 305 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 305 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 305 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 306 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 306 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 306 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 306 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 307 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 307 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 307 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 307 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 308 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 308 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 308 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 308 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 309 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 309 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 309 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 309 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 310 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 310 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 310 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 310 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 311 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 311 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 311 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 311 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 312 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 312 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 312 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 312 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 313 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 313 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 313 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 313 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 314 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 314 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 314 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 314 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 315 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 315 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 315 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 315 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 316 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 316 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 316 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 316 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 317 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 317 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 317 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 317 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 318 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 318 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 318 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 318 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 319 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 319 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 319 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 319 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 320 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 320 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 320 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 320 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 321 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 321 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 321 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 321 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 322 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 322 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 322 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 322 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 323 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 323 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 323 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 323 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 324 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 324 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 324 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 324 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 325 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 325 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 325 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 325 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 326 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 326 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 326 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 326 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 327 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 327 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 327 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 327 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 328 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 328 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 328 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 328 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 329 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 329 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 329 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 329 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 330 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 330 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 330 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 330 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 331 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 331 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 331 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 331 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 332 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 332 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 332 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 332 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 333 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 333 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 333 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 333 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 334 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 334 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 334 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 334 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 335 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 335 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 335 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 335 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 336 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 336 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 336 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 336 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 337 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 337 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 337 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 337 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 338 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 338 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 338 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 338 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 339 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 339 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 339 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 339 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 340 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 340 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 340 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 340 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 341 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 341 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 341 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 341 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 342 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 342 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 342 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 342 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 343 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 343 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 343 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 343 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 344 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 344 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 344 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 344 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 345 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 345 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 345 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 345 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 346 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 346 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 346 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 346 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 347 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 347 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 347 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 347 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 348 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 348 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 348 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 348 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 349 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 349 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 349 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 349 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 350 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 350 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 350 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 350 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 351 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 351 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 351 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 351 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 352 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 352 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 352 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 352 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 353 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 353 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 353 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 353 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 354 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 354 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 354 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 354 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 355 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 355 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 355 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 355 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 356 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 356 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 356 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 356 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 357 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 357 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 357 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 357 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 358 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 358 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 358 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 358 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 359 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 359 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 359 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 359 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 360 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 360 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 360 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 360 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 361 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 361 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 361 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 361 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 362 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 362 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 362 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 362 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 363 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 363 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 363 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 363 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 364 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 364 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 364 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 364 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 365 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 365 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 365 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 365 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 366 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 366 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 366 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 366 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 367 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 367 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 367 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 367 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 368 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 368 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 368 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 368 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 369 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 369 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 369 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 369 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 370 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 370 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 370 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 370 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 371 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 371 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 371 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 371 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 372 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 372 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 372 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 372 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 373 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 373 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 373 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 373 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 374 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 374 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 374 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 374 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 375 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 375 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 375 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 375 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 376 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 376 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 376 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 376 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 377 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 377 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 377 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 377 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 378 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 378 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 378 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 378 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 379 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 379 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 379 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 379 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 380 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 380 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 380 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 380 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 381 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 381 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 381 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 381 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 382 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 382 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 382 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 382 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 383 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 383 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 383 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 383 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 384 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 384 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 384 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 384 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 385 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 385 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 385 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 385 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 386 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 386 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 386 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 386 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 387 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 387 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 387 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 387 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 388 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 388 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 388 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 388 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 389 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 389 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 389 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 389 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 390 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 390 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 390 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 390 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 391 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 391 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 391 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 391 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 392 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 392 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 392 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 392 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 393 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 393 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 393 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 393 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 394 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 394 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 394 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 394 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 395 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 395 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 395 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 395 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 396 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 396 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 396 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 396 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 397 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 397 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 397 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 397 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 398 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 398 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 398 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 398 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 399 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 399 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 399 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 399 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 400 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 400 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 400 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 400 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 401 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 401 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 401 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 401 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 402 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 402 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 402 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 402 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 403 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 403 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 403 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 403 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 404 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 404 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 404 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 404 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 405 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 405 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 405 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 405 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 406 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 406 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 406 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 406 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 407 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 407 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 407 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 407 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 408 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 408 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 408 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 408 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 409 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 409 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 409 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 409 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 410 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 410 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 410 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 410 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 411 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 411 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 411 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 411 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 412 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 412 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 412 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 412 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 413 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 413 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 413 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 413 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 414 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 414 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 414 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 414 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 415 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 415 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 415 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 415 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 416 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 416 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 416 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 416 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 417 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 417 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 417 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 417 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 418 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 418 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 418 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 418 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 419 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 419 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 419 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 419 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 420 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 420 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 420 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 420 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 421 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 421 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 421 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 421 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 422 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 422 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 422 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 422 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 423 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 423 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 423 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 423 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 424 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 424 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 424 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 424 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 425 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 425 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 425 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 425 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 426 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 426 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 426 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 426 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 427 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 427 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 427 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 427 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 428 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 428 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 428 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 428 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 429 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 429 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 429 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 429 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 430 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 430 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 430 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 430 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 431 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 431 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 431 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 431 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 432 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 432 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 432 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 432 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 433 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 433 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 433 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 433 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 434 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 434 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 434 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 434 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 435 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 435 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 435 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 435 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 436 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 436 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 436 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 436 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 437 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 437 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 437 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 437 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 438 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 438 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 438 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 438 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 439 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 439 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 439 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 439 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 440 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 440 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 440 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 440 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 441 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 441 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 441 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 441 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 442 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 442 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 442 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 442 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 443 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 443 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 443 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 443 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 444 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 444 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 444 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 444 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 445 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 445 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 445 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 445 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 446 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 446 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 446 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 446 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 447 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 447 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 447 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 447 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 448 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 448 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 448 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 448 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 449 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 449 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 449 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 449 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 450 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 450 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 450 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 450 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 451 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 451 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 451 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 451 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 452 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 452 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 452 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 452 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 453 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 453 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 453 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 453 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 454 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 454 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 454 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 454 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 455 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 455 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 455 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 455 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 456 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 456 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 456 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 456 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 457 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 457 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 457 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 457 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 458 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 458 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 458 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 458 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 459 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 459 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 459 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 459 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 460 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 460 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 460 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 460 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 461 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 461 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 461 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 461 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 462 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 462 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 462 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 462 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 463 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 463 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 463 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 463 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 464 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 464 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 464 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 464 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 465 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 465 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 465 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 465 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 466 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 466 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 466 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 466 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 467 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 467 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 467 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 467 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 468 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 468 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 468 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 468 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 469 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 469 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 469 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 469 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 470 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 470 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 470 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 470 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 471 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 471 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 471 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 471 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 472 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 472 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 472 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 472 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 473 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 473 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 473 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 473 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 474 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 474 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 474 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 474 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 475 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 475 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 475 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 475 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 476 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 476 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 476 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 476 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 477 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 477 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 477 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 477 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 478 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 478 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 478 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 478 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 479 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 479 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 479 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 479 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 480 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 480 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 480 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 480 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 481 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 481 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 481 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 481 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 482 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 482 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 482 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 482 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 483 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 483 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 483 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 483 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 484 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 484 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 484 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 484 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 485 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 485 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 485 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 485 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 486 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 486 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 486 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 486 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 487 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 487 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 487 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 487 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 488 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 488 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 488 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 488 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 489 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 489 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 489 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 489 assorted treasure cards and 7 bonus
+	Test condition passed
+Checking Player 1 with 490 copper cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 490 silver cards and 6 bonus
+	Test condition passed
+Checking Player 3 with 490 gold cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 490 assorted treasure cards and 8 bonus
+	Test condition passed
+Checking Player 1 with 491 copper cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 491 silver cards and 7 bonus
+	Test condition passed
+Checking Player 3 with 491 gold cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 491 assorted treasure cards and 9 bonus
+	Test condition passed
+Checking Player 1 with 492 copper cards and 7 bonus
+	Test condition passed
+Checking Player 2 with 492 silver cards and 8 bonus
+	Test condition passed
+Checking Player 3 with 492 gold cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 492 assorted treasure cards and 10 bonus
+	Test condition passed
+Checking Player 1 with 493 copper cards and 8 bonus
+	Test condition passed
+Checking Player 2 with 493 silver cards and 9 bonus
+	Test condition passed
+Checking Player 3 with 493 gold cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 493 assorted treasure cards and 0 bonus
+	Test condition passed
+Checking Player 1 with 494 copper cards and 9 bonus
+	Test condition passed
+Checking Player 2 with 494 silver cards and 10 bonus
+	Test condition passed
+Checking Player 3 with 494 gold cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 494 assorted treasure cards and 1 bonus
+	Test condition passed
+Checking Player 1 with 495 copper cards and 10 bonus
+	Test condition passed
+Checking Player 2 with 495 silver cards and 0 bonus
+	Test condition passed
+Checking Player 3 with 495 gold cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 495 assorted treasure cards and 2 bonus
+	Test condition passed
+Checking Player 1 with 496 copper cards and 0 bonus
+	Test condition passed
+Checking Player 2 with 496 silver cards and 1 bonus
+	Test condition passed
+Checking Player 3 with 496 gold cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 496 assorted treasure cards and 3 bonus
+	Test condition passed
+Checking Player 1 with 497 copper cards and 1 bonus
+	Test condition passed
+Checking Player 2 with 497 silver cards and 2 bonus
+	Test condition passed
+Checking Player 3 with 497 gold cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 497 assorted treasure cards and 4 bonus
+	Test condition passed
+Checking Player 1 with 498 copper cards and 2 bonus
+	Test condition passed
+Checking Player 2 with 498 silver cards and 3 bonus
+	Test condition passed
+Checking Player 3 with 498 gold cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 498 assorted treasure cards and 5 bonus
+	Test condition passed
+Checking Player 1 with 499 copper cards and 3 bonus
+	Test condition passed
+Checking Player 2 with 499 silver cards and 4 bonus
+	Test condition passed
+Checking Player 3 with 499 gold cards and 5 bonus
+	Test condition passed
+Checking Player 2 with 499 assorted treasure cards and 6 bonus
+	Test condition passed
+Checking Player 1 with 500 copper cards and 4 bonus
+	Test condition passed
+Checking Player 2 with 500 silver cards and 5 bonus
+	Test condition passed
+Checking Player 3 with 500 gold cards and 6 bonus
+	Test condition passed
+Checking Player 2 with 500 assorted treasure cards and 7 bonus
+	Test condition passed
+All 2000 tests PASSED!
+TESTING Village Card:
+Checking action count.
+	Test condition passed
+Checking hand size.
+	Test condition passed
+Checking buys count.
+	Test condition passed
+Checking return code.
+	Test condition passed
+All 4 tests PASSED!
+TESTING Smithy Card:
+Checking action count.
+	Test condition passed
+Checking hand size.
+	Test condition FAILED. Expected value: 3 Actual value: 4
+Checking buys count.
+	Test condition passed
+Checking return code.
+	Test condition passed
+1 out of 4 tests FAILED
+TESTING Adventurer Card:
+Testing Adventurer with 2 or more treasure cards in the deck.
+Checking action count.
+	Test condition passed
+Checking hand size.
+	Test condition FAILED. Expected value: 2 Actual value: 4
+Checking that two treasures were drawn.
+	Test condition FAILED. Card drawn is not a treasure.
+Checking buys count.
+	Test condition passed
+Checking return code.
+	Test condition passed
+Testing Adventurer with one treasure in the deck and one or more treasures in the discard pile.
+Checking action count.
+	Test condition passed
+Checking hand size.
+	Test condition FAILED. Expected value: 2 Actual value: 4
+Checking that two treasures were drawn.
+	Test condition FAILED. Card drawn is not a treasure.
+Checking buys count.
+	Test condition passed
+Checking discard count.
+	Test condition FAILED. Expected value: 3 Actual value: 4
+Checking return code.
+	Test condition passed
+Testing Adventurer with only one treasure in deck and discard combined.
+Checking action count.
+	Test condition passed
+Checking hand size.
+	Test condition FAILED. Expected value: 1 Actual value: 2
+Checking that two treasures were drawn.
+	Test condition FAILED. Card drawn is not a treasure.
+Checking buys count.
+	Test condition passed
+Checking return code.
+	Test condition passed
+7 out of 16 tests FAILED
+TESTING Council Room Card:
+Checking action count.
+	Test condition passed
+Checking hand size of player 1.
+	Test condition passed
+Checking hand size of player 2.
+	Test condition passed
+Checking buys count.
+	Test condition passed
+Checking return code.
+	Test condition passed
+All 5 tests PASSED!
